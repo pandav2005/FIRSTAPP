@@ -2,7 +2,9 @@ pipeline {
   agent any
   stages{
     stage(test){
-        sh 'mkdir test'
+        steps{
+            sh 'mkdir test'
+        }sh 'mkdir test'
     }
   }
 }
