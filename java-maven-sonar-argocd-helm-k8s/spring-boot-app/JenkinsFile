@@ -3,12 +3,12 @@ pipeline {
   stages{
     stage('test'){
         steps{
-            sh 'mkdir test1'
+            sh 'mkdir test3'
         }
     }
     stage('build'){
         steps{
-            sh 'mkdir test2'
+            sh 'mkdir test4'
         }
     }
   }
